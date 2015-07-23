@@ -1,6 +1,6 @@
-This is the project for operating system desing course,Tongji University.
-Team member & class:
-1352956 鄞劭涵 02
-1352958 金敏   02
-1352960 张航   01
+#同济大学软件学院操作系统课程设计项目。
+##团队成员 & 班级号:
+>1352956 鄞劭涵 02
+>1352958 金敏   02
+>1352960 张航   01
 
