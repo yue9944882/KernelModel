@@ -63,13 +63,23 @@ PUBLIC int kernel_main()
 	proc_table[0].ticks = 1;
 	proc_table[1].ticks = 1;
 	proc_table[2].ticks = 1;
+	proc_table[3].ticks = 1;
+	proc_table[4].ticks = 1;
+	proc_table[5].ticks = 1;
+	
 	proc_table[0].priority = 1;
 	proc_table[1].priority = 1;
 	proc_table[2].priority = 1;
+	proc_table[3].priority = 1;
+	proc_table[4].priority = 1;
+	proc_table[5].priority = 1;
 	PQueueLv1[0]=0;
 	PQueueLv1[1]=1;
 	PQueueLv1[2]=2;
-	Lv1Size=3;
+	PQueueLv1[3]=3;
+	PQueueLv1[4]=4;
+	PQueueLv1[5]=5;
+	Lv1Size=6;
 	Lv2Size=0;
 	Lv3Size=0;
 	k_reenter = 0;
@@ -125,3 +135,31 @@ void TestC()
 		milli_delay(10);
 	}
 }
+void TestD()
+{
+	int i = 0x3000;
+	while(1){
+		disp_str("D.");
+		milli_delay(10);
+	}
+}
+
+void TestE()
+{
+	int i = 0x4000;
+	while(1){
+		disp_str("E.");
+		milli_delay(10);
+	}
+}
+
+void TestF()
+{
+	int i = 0x5000;
+	while(1){
+		disp_str("F.");
+		milli_delay(10);
+	}
+}
+
+
