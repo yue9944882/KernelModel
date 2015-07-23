@@ -9,4 +9,4 @@
 >
 
 #####Git托管地址:
->[git@github.com:yue9944882/KernelModel.git]
+>[git@github.com:][yue9944882/KernelModel.git]
